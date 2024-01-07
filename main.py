@@ -148,6 +148,7 @@ thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print(mylist)
 
+
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]
 
