@@ -155,3 +155,5 @@ list3 = list1 + list2
 print(list3)
 
 #Tuples
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
