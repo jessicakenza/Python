@@ -139,6 +139,15 @@ thislist.sort(reverse = True)
 print(thislist)
 def myfunc(n):
   return abs(n - 50)
+#les ensembles
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+
+thisset.add("orange")
+
+print(thisset)
+
 
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = myfunc)
@@ -158,3 +167,33 @@ print(list3)
 #Tuples
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
+
+#Dictionnaires
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+#if
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+
+  a = 200
+  b = 33
+  if b > a:
+      print("b is greater than a")
+  elif a == b:
+      print("a and b are equal")
+  else:
+      print("a is greater than b")
