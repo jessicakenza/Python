@@ -46,3 +46,22 @@ if "free" in txt:
     print("Yess, 'free' is present.")
 else:
     print("No 'free here'")
+
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+#Opérateurs
+print(10+5)
+print(2**3)
+print(5%2)
+print(27//2)
+print((6 + 3) - (6 + 3))
