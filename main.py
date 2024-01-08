@@ -242,7 +242,7 @@ def tri_recursion(k):
 print("\n\nRecursion Example Results")
 tri_recursion(4)
 
-#Python Lamda
+#Python Lambda
 x = lambda a : a + 10
 print(x((5)))
 
@@ -286,6 +286,8 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+
+#L'héritage
 
 
 

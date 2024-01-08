@@ -1,0 +1,5 @@
+print(10+5)
+print(2**3)
+print(5%2)
+print(27//2)
+print((6 + 3) - (6 + 3))
