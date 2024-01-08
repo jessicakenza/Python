@@ -252,3 +252,15 @@ def myfunc(n):
 mydoubler = myfunc(2)
 
 print(mydoubler(11))
+
+#les tableaux
+cars = ["Ford", "Volvo", "BMW"]
+
+x = cars[0]
+
+print(x)
+cars = ["Ford", "Volvo", "BMW"]
+
+cars[0] = "Toyota"
+
+print(cars)
