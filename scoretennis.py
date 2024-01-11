@@ -27,8 +27,24 @@ def gagnant_set(chaine):
     else:
         return None
 
+
 resultat_set = gagnant_set("111222")
 if resultat_set:
     print(f"Le gagnant du set est le joueur {resultat_set}")
 else:
     print("Match Nul.")
+
+def gagnant_match(chaine_match):
+    sets_joueur1 = chaine_match.count('1')
+    sets_joueur2 = chaine_match.count('2')
+
+    if sets_joueur1 > sets_joueur2:
+        return '1'
+    elif sets_joueur2 > sets_joueur1:
+        return '2'
+
+
+resultat_match = gagnant_match("121")
+if resultat_match:
+    print(f"Le gagnant du match est le joueur {resultat_match}")
+
