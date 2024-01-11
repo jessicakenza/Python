@@ -48,3 +48,21 @@ resultat_match = gagnant_match("121")
 if resultat_match:
     print(f"Le gagnant du match est le joueur {resultat_match}")
 
+
+def jeux_gagnés():
+    resultats_sets = ''
+
+    while True:
+        resultat = input("Entrez le résultat du set (1 ou 2) : ")
+        resultats_sets += gagnant_set(resultat)
+
+        if len(resultats_sets) % 2 == 0:
+            print(f"Score actuel : Joueur 1 - {resultats_sets.count('1')} | Joueur 2 - {resultats_sets.count('2')}")
+
+        if len(resultats_sets) >= 4 and resultats_sets[-4:] in ['1111', '2222']:
+            gagnant = gagnant_match(resultats_sets)
+            print(f"Le joueur {gagnant} a gagné le match !")
+            break
+
+
+jeux_gagnés()
