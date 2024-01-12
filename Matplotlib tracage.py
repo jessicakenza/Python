@@ -11,7 +11,7 @@ plt.show()
 #Traçage sans ligne (Dessiner deux points dans le diagramme, un en position (1, 3) et un en position (8, 10)
 xpoints = np.array([1, 3])
 ypoints = np.array([3, 10])
-plt.plot(xpoints , ypoints, 'o')
+plt.plot(xpoints , ypoints, 'o:r')
 plt.show()
 
 #points multiples
