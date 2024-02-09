@@ -7,11 +7,7 @@ def main():
     # Demander à l'utilisateur d'entrer le salaire mensuel et le nombre d'heures travaillées par semaine
     salaire_mensuel = float(input("Entrez le salaire mensuel de l'employé : "))
     heures_travaillees_par_semaine = float(input("Entrez le nombre d'heures travaillées par semaine : "))
-
-    # Calculer le salaire horaire en appelant la fonction
     salaire_horaire = calculer_salaire_horaire(salaire_mensuel, heures_travaillees_par_semaine)
-
-    # Afficher le résultat
     print(f"Le salaire horaire de l'employé est : {salaire_horaire} euros par heure.")
 
 if __name__ == "__main__":
