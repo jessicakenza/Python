@@ -1,2 +1,4 @@
 thistuple = ("apple", "banana", "cherry")
-print(thistuple)
+print(type(thistuple))
+thistuple = ("Mangoes")
+print(type(thistuple))
